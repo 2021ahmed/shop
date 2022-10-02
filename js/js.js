@@ -2,7 +2,7 @@
 $(document).ready(function (){
 
     $(".home-slider1").owlCarousel({
-        // loop: true,
+        loop: true,
         margin: 10,
         nav: true,
         responsive: {

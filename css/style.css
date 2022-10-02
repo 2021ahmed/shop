@@ -39,10 +39,12 @@
     margin-left: -4px;
 }
 /*--------------media---------------------*/
-
+.owl-item{
+    width: 100% !important;
+}
 .owl-stage{
     display: flex !important;
-    justify-content:space-evenly !important;
+  
 }
 .owl-carousel .owl-nav.disabled{
     display: block !important;
@@ -399,6 +401,11 @@ font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 120%;
+}
+@media (max-width:576px){
+    #slider-one .content h2{
+        font-size: 16px !important;
+    }
 }
 #slider-one .content p:nth-child(3){
     font-family: 'Source Sans Pro';
